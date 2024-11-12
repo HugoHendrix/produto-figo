@@ -1,0 +1,9 @@
+# PALETA DE CORES ESCURAS DO FIGO
+
+- #A60D1A
+- #3C594E
+- #0A2611
+- #7E8C74
+- #F2F2F2
+
+![alt text](paleta.png)
