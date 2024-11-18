@@ -1,16 +1,19 @@
 .bg-red { background-color: var(--cor-vermelha); }
-.bg-green { background-color: var(--cor-verde);}
-.borda { border: 7px solid var(--cor-vermelha);}
+.bg-green { background-color: var(--cor-verde); }
+.borda { border: 7px solid var(--cor-vermelha); }
+.padding-block-30 { padding-block: 30px;}
 
 @keyframes pulse {
     0% {
         transform: scale(1);
         opacity: 1;
     }
+
     50% {
         transform: scale(1.1);
-        opacity: 0.7; 
+        opacity: 0.7;
     }
+
     100% {
         transform: scale(1);
         opacity: 1;
@@ -20,6 +23,7 @@
 .btn-padrao {
     padding: 10px 20px;
     margin-bottom: 30px;
+    font-size: 2.1rem;
     text-transform: uppercase;
     background-color: var(--cta);
     color: var(--cor-branca);
@@ -74,7 +78,7 @@ main ul li {
 
 main .produto {
     width: 100%;
-    
+
 }
 
 .benefit-card {
@@ -120,7 +124,7 @@ main .produto {
 
 section h2 {
     margin-top: 50px;
-    margin-bottom: 30px;    
+    margin-bottom: 30px;
     font-size: 4rem;
     font-weight: 700;
     text-wrap: balance;
@@ -132,6 +136,7 @@ section p {
     font-size: 1.8rem;
     color: var(--cor-branca);
 }
+
 section ul li {
     color: var(--cor-vermelha);
     font-size: 1.6rem;
@@ -141,24 +146,115 @@ section ul li {
 section .produto {
     max-width: 500px;
     width: 100%;
-    margin-top: 150px;    
+    margin-top: 150px;
 }
 
 section h4 {
     margin-block: 30px;
-    font-size: 2.2rem;
+    font-size: 2.1rem;
     color: var(--cor-branca);
     font-weight: 800;
-    
+
 }
 
-section .titulo-figo { 
+section .titulo-figo {
     color: var(--cor-verde-escuro);
     font-size: 6rem;
     font-weight: 900;
-    
+
 }
 
 section .descricao-figo {
     color: var(--cor-verde-escuro);
 }
+
+.card-container {
+    margin-bottom: 15px;
+    padding: 20px;
+    background-color: darkolivegreen;
+    border: 1px solid var(--cor-verde);
+    border-radius: 20px;
+    height: fit-content;
+}
+
+.card-imagem {
+    max-width: 300px;
+    margin-bottom: 10px;
+}
+
+.card-titulo {
+    text-transform: uppercase;
+    font-size: 2.2rem;
+    text-align: center;
+}
+
+.video-card {
+    border: 1px solid var(--cor-verde-escuro);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .video-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    padding-top: 56.25%; 
+    
+  }
+  
+  .video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+  
+  .video-thumbnail {
+    position: relative;
+    cursor: pointer;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .video-thumbnail img {
+    width: 100%;
+    border-radius: 8px;
+    transition: 0.3s;
+  }
+  
+  .video-thumbnail img:hover {
+    opacity: 0.9;
+    transform: scale(1.02); /* Efeito de zoom ao passar o mouse */
+  }
+  
+  .video-thumbnail .play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+  }
+  
+  .video-thumbnail .play-button:hover {
+    background: rgba(0, 0, 0, 0.8);
+    transform: scale(1.1);
+  }
+  
+  .video-wrapper {
+    display: none; /* Esconde o iframe inicialmente */
+  }
+  

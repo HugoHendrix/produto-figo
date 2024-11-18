@@ -14,3 +14,16 @@ $(document).ready(function(){
         }
     });
 });
+
+function loadVideo(element) {
+    const wrapper = element.nextElementSibling; // Próximo elemento (div com iframe)
+    const iframe = wrapper.querySelector('iframe'); // Encontra o iframe dentro da div
+    const videoSrc = iframe.getAttribute('data-src'); // Obtém o src do atributo data-src
+  
+    if (videoSrc) {
+      iframe.setAttribute('src', videoSrc); // Define o src do iframe
+      wrapper.style.display = 'block'; // Exibe o vídeo
+      element.style.display = 'none'; // Esconde a thumbnail
+    }
+  }
+  

@@ -7,3 +7,8 @@
 - #F2F2F2
 
 ![alt text](paleta.png)
+
+
+# Links
+- [Figo Brasil](https://figobrasil.com.br/?pv=projqw49&af=afi11q021n)
+- [Google Drive](https://drive.google.com/drive/folders/1BU9HyIL42T5wLRUhnqpnAGuGP4Clur2d)
