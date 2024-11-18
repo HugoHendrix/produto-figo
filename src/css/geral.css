@@ -4,11 +4,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 :root {
-    --fTema: #7FDBFF;
-    --fTema2: #0074D9;
-    --fTema3: #FFFFFF;
-    --fTema4: #DDDDDD;
-    --fTema5: #2ECC40;
+    --cor-vermelha: #A60D1A;
+    --cor-verde-escuro: #3C594E;
+    --cor-verde-claro: #0A2611;
+    --cor-verde: #7E8C74;
+    --cor-branca: #F2F2F2;    
+    --cta: #0e5f14;
 }
 
 /* Configurações gerais */

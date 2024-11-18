@@ -1,0 +1,164 @@
+.bg-red { background-color: var(--cor-vermelha); }
+.bg-green { background-color: var(--cor-verde);}
+.borda { border: 7px solid var(--cor-vermelha);}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(1.1);
+        opacity: 0.7; 
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.btn-padrao {
+    padding: 10px 20px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    background-color: var(--cta);
+    color: var(--cor-branca);
+    border-radius: 20px;
+    animation: pulse 1.5s infinite;
+}
+
+
+header h2 {
+    padding-block: 10px;
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: var(--cor-branca);
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+main h2 {
+    padding-top: 30px;
+    font-size: 5rem;
+    font-weight: 600;
+    color: var(--cor-verde-escuro);
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+main h3 {
+    font-size: 5rem;
+    font-weight: 900;
+    color: var(--cor-vermelha);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+main h3 span {
+    border-bottom: 4px solid var(--cor-verde-escuro);
+}
+
+main p {
+    padding-block: 20px;
+    font-size: 2rem;
+    font-weight: 400;
+    color: var(--cor-verde-escuro);
+}
+
+main ul li {
+    font-size: 1.8rem;
+    font-weight: 300;
+    color: var(--cor-verde-escuro);
+}
+
+main .produto {
+    width: 100%;
+    
+}
+
+.benefit-card {
+    background-color: #f5f2f2;
+    border: 1px solid var(--cor-verde-escuro);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 200px;
+    margin: auto;
+}
+
+.benefit-icon {
+    max-width: 70px;
+    margin-bottom: 10px;
+    fill: var(--cor-verde-escuro);
+}
+
+.benefit-text {
+    font-size: 1.8rem;
+    color: var(--cor-verde-escuro);
+    text-align: center;
+    font-weight: bold;
+}
+
+.owl-theme .owl-nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.owl-theme .owl-nav [class*="owl-"] {
+    color: var(--cor-vermelha);
+    font-size: 1.6em;
+    padding: 5px 15px;
+    margin: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+section h2 {
+    margin-top: 50px;
+    margin-bottom: 30px;    
+    font-size: 4rem;
+    font-weight: 700;
+    text-wrap: balance;
+    color: var(--cor-branca);
+}
+
+section p {
+    margin-bottom: 10px;
+    font-size: 1.8rem;
+    color: var(--cor-branca);
+}
+section ul li {
+    color: var(--cor-vermelha);
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+section .produto {
+    max-width: 500px;
+    width: 100%;
+    margin-top: 150px;    
+}
+
+section h4 {
+    margin-block: 30px;
+    font-size: 2.2rem;
+    color: var(--cor-branca);
+    font-weight: 800;
+    
+}
+
+section .titulo-figo { 
+    color: var(--cor-verde-escuro);
+    font-size: 6rem;
+    font-weight: 900;
+    
+}
+
+section .descricao-figo {
+    color: var(--cor-verde-escuro);
+}
