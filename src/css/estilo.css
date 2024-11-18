@@ -258,3 +258,104 @@ section .descricao-figo {
     display: none; /* Esconde o iframe inicialmente */
   }
   
+
+  .pricing-card {
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pricing-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Cabeçalhos */
+.pricing-card .card-header {
+  padding: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.pricing-card .card-header.bg-success {
+  background: linear-gradient(45deg, #28a745, #218838);
+}
+
+.pricing-card .card-header.bg-primary {
+  background: linear-gradient(45deg, #368b3d, #41691c);
+}
+
+.pricing-card .card-header.bg-secondary {
+  background: linear-gradient(45deg, #33b83c, #28a50f);
+}
+
+/* Corpo */
+.pricing-card .card-body {
+  padding: 2rem 1.5rem;
+  text-align: center;
+  color: #333;
+}
+
+.pricing-card .card-body p {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+.pricing-card .card-body .price-old {
+  font-size: 1rem;
+  color: #888;
+  text-decoration: line-through;
+}
+
+.pricing-card .card-body .price-new {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 1rem;
+}
+
+/* Botões */
+.pricing-card .btn {
+  padding: 0.75rem 1.5rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border-radius: 50px;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.pricing-card .btn-success {
+  background: #28a745;
+  color: #fff;
+}
+
+.pricing-card .btn-success:hover {
+  background: #218838;
+  color: #fff;
+}
+
+.pricing-card .btn-primary {
+  background: #1b9725;
+  color: #fff;
+}
+
+.pricing-card .btn-primary:hover {
+  background: #0a962d;
+  color: #fff;
+}
+
+.pricing-card .btn-secondary {
+  background: #6c757d;
+  color: #fff;
+}
+
+.pricing-card .btn-secondary:hover {
+  background: #495057;
+  color: #fff;
+}
+
+.figo-frasco { 
+    max-width: 16rem;
+}
