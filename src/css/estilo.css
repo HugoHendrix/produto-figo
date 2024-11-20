@@ -359,3 +359,73 @@ section .descricao-figo {
 .figo-frasco { 
     max-width: 16rem;
 }
+
+.garantia { 
+    max-width: 320px;
+}
+
+details {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  details summary {
+    cursor: pointer;
+    font-size: 1.1rem;
+    color: #007b5e;
+  }
+  
+  details[open] summary {
+    font-weight: bold;
+  }
+  
+  details p {
+    margin: 10px 0 0;
+    font-size: 0.95rem;
+    color: #333;
+  }
+  
+  /* Estilo base para o <details> */
+details {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  details summary {
+    cursor: pointer;
+    font-size: 1.1rem;
+    color: #007b5e;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  details[open] summary {
+    font-weight: bold;
+    color: #00543c;
+  }
+  
+  /* Adicionar animação suave para o conteúdo */
+  details p {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 0; /* Começa colapsado */
+    opacity: 0;
+    transition: height 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  }
+  
+  /* Quando o <details> está aberto */
+  details[open] p {
+    height: auto; /* Ajusta automaticamente */
+    opacity: 1;
+    padding-top: 10px;
+  }
+  
+
+.formas-pagamentos { 
+    max-width: 150px;
+}
