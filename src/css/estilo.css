@@ -65,13 +65,13 @@ main h3 span {
 
 main p {
     padding-block: 20px;
-    font-size: 2rem;
+    font-size: 2.2rem;
     font-weight: 400;
     color: var(--cor-verde-escuro);
 }
 
 main ul li {
-    font-size: 1.8rem;
+    font-size: 2.1rem;
     font-weight: 300;
     color: var(--cor-verde-escuro);
 }
@@ -124,7 +124,7 @@ main .produto {
 
 section h2 {
     margin-top: 50px;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     font-size: 4rem;
     font-weight: 700;
     text-wrap: balance;
@@ -146,7 +146,7 @@ section ul li {
 section .produto {
     max-width: 500px;
     width: 100%;
-    margin-top: 150px;
+    margin-top: 50px;
 }
 
 section h4 {
@@ -166,6 +166,11 @@ section .titulo-figo {
 
 section .descricao-figo {
     color: var(--cor-verde-escuro);
+}
+
+section .produto2 {
+  max-width: max-content;
+  width: 100%;
 }
 
 .card-container {

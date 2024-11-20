@@ -1,32 +1,96 @@
 /* Responsividade */
 @media (max-width: 300px) {
     /* Estilos para dispositivos muito pequenos */
+    header h2 { font-size: 1.6rem; } 
+    main h2 { font-size: 4rem; }
+    main h3 { font-size: 3.5rem; }
+    main h3 span { border-bottom: 1px solid var(--cor-verde-escuro); }
+    main p { font-size: 1.7rem; }
+    main ul li { font-size: 1.6rem; }
+
+    section .titulo-figo { font-size: 3rem; }
+    .btn-padrao { font-size: 1.6rem; }
+    section .produto { max-width: 250px; margin-top: 50px; }
+    section h2 { font-size: 2.8rem; }
+    section h4 { font-size: 1.6rem; }
+
 }
 
 @media (min-width: 301px) and (max-width: 380px) {
-    /* Estilos para dispositivos pequenos */
+    header h2 { font-size: 1.6rem; } 
+    main h2 { font-size: 3rem; }
+    main h3 { font-size: 3.5rem; }
+    main h3 span { border-bottom: 1px solid var(--cor-verde-escuro); }
+    main p { font-size: 1.6rem; }
+    main ul li { font-size: 1.5rem; }
+
+    .btn-padrao { font-size: 1.4rem; }
+    section .produto { max-width: 300px; margin-top: 30px; }
+    section .titulo-figo { font-size: 3rem; }
+    section h4 { font-size: 1rem; }
+
+
 }
 
 @media (min-width: 381px) and (max-width: 480px) {
-    /* Estilos para smartphones */
+    header h2 { font-size: 2rem; } 
+    main h2 { font-size: 4.4rem; }
+    main h3 { font-size: 4rem; }
+    main h3 span { border-bottom: 1px solid var(--cor-verde-escuro); }
+    main p { font-size: 1.8rem; }
+    main ul li { font-size: 1.6rem; }
+
+    .btn-padrao { font-size: 1.4rem; }
+    section .produto { max-width: 400px; margin-top: 30px; }
+    section .titulo-figo { font-size: 4.3rem; }
+
+    
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
-    /* Estilos para tablets pequenos */
+    header h2 { font-size: 2.2rem; } 
+    main h2 { font-size: 4rem; }
+    main h3 { font-size: 3.6rem; }
+    main h3 span { border-bottom: 1px solid var(--cor-verde-escuro); }
+    .btn-padrao { font-size: 1.4rem; }
+    section .produto { max-width: 400px; margin-top: 30px; }
+    section .titulo-figo { font-size: 4.3rem; }
+
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-    /* Estilos para tablets médios e grandes */
+    header h2 { font-size: 2rem; }
+    main h2 { font-size: 3.8rem; }
+    main h3 { font-size: 3.6rem; }
+    main p { font-size: 1.6rem; }
+    main ul li { font-size: 1.4rem; }
+    section h2 { font-size: 2.2rem; }
+    section p { font-size: 1.6rem; }
+    section ul li { font-size: 1.5rem; }
+    section .produto { max-width: 400px; margin-top: 75px; }
+    section h4 { font-size: 2rem; text-wrap:balance; }
+    section .titulo-figo { font-size: 4.2rem; text-wrap: balance; }
+    section .produto2 { max-width: 620px; width: fit-content; }
+    .btn-padrao { font-size: 1.6rem; }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-    /* Estilos para desktops pequenos */
+    main h3 { font-size: 4.4rem; }
+    section .titulo-figo { font-size: 3.9rem; }
 }
 
 @media (min-width: 1200px) and (max-width: 1599px) {
-    /* Estilos para desktops médios */
+    
 }
 
 @media (min-width: 1600px) {
-    /* Estilos para grandes monitores */
+    main h2 { font-size: 6.4rem; }
+    main h3 { font-size: 6.2rem; }
+    main p { font-size: 2.6rem; }
+    main ul li { font-size: 2.2rem; }
+    section p { font-size: 2.1rem; }
+    section ul li { font-size: 1.9rem; }
+
+    details summary { font-size: 1.7rem; }
+
 }

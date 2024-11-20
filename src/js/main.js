@@ -8,9 +8,10 @@ $(document).ready(function(){
         autoplayTimeout: 3000,
         autoplayHoverPause: true,
         responsive: {
-            0: { items: 1 },
-            600: { items: 2 },
-            1000: { items: 4 }
+            0: { items: 2 },
+            600: { items: 3 },
+            900: { items: 4 },
+            1000: { items: 5 }
         }
     });
 });
