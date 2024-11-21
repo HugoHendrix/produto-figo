@@ -431,6 +431,11 @@ details {
   }
   
 
+footer { 
+  position: relative;
+}
+
 .formas-pagamentos { 
     max-width: 150px;
 }
+
